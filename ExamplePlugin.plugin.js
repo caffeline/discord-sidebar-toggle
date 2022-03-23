@@ -51,6 +51,6 @@ module.exports = class sidebarToggle {
   }
 
   stop() {
-    BdApi.showToast("CreationDates plugin stopped.", {type:"info", icon: true})
+    BdApi.showToast("sidebarToggle plugin stopped.", {type:"info", icon: true})
   }
 }
